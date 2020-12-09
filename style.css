@@ -14,7 +14,7 @@ width: 100%;
 
 .header a {
   float: left;
-  color: #ded7cd
+  color: #e7f3f2
 ;
   text-align: center;
   padding: 12px;
@@ -30,7 +30,6 @@ width: 100%;
 }
 
 .header a:hover {
-  background-color: #ddd;
   color: black;
 }
 
@@ -65,3 +64,20 @@ width: 100%;
 
   }
 }
+
+
+@media only screen and (max-width: 600px) {
+ .header .header-right a{
+   display: none;
+  }
+
+  
+   .header:hover .header-right a{
+   display: block;
+    transition: .9s;
+  }
+  
+}
+
+
+
