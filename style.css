@@ -10,6 +10,9 @@ width: 100%;
   background-color: #084645;
   height: 90px;
   padding: 20px 10px;
+  box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 }
 
 .header a {
@@ -45,8 +48,9 @@ width: 100%;
 @media screen and (max-width: 500px) {
   .header  {
     height: auto;
-      border-radius: 50px;
-
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
   }
   
   
@@ -61,15 +65,15 @@ width: 100%;
   .header-right {
     float: none;
         display: block;
+       display: none;
+
 
   }
   
-   .header .header-right{
-   display: none;
-  }
   
    .header:hover .header-right{
    display: block;
+     transition:.9s;
   }
 
 }
