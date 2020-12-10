@@ -63,16 +63,22 @@ width: 100%;
         display: block;
 
   }
-}
-
-
-@media only screen and (max-width: 600px) {
- .header .header-right a{
+  
+   .header .header-right{
    display: none;
   }
 
+}
+
+
+
+
+@media only screen and (max-width: 595px) {
+ 
+
   
-   .header:hover .header-right a{
+   .header:hover .header-right 
+  {
    display: block;
     transition: .9s;
   }
